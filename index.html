@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisket Breaker: Ragdoll Faller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-wrapper">
+        <canvas id="gameCanvas"></canvas>
+        
+        <div id="hud">
+            <div id="stats">
+                <span id="money-display">Money: $0</span>
+                <span id="bones-display">Bones Broken: 0</span>
+                <span id="map-display">Map: The Stairs</span>
+            </div>
+            <div id="shop">
+                <button id="btn-map1" class="map-btn active">The Stairs (Free)</button>
+                <button id="btn-map2" class="map-btn">Spike Pit ($100)</button>
+                <button id="btn-map3" class="map-btn">The Crusher ($500)</button>
+            </div>
+            <div id="controls">
+                <p><b>Drag</b> the ragdoll to aim. <b>Release</b> to drop. <b>SPACE</b> to reset.</p>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
